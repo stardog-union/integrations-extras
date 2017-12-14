@@ -72,6 +72,13 @@ _g_metrics_map = {
     'dbms.mem.direct.pool.max': convert_value,
     'dbms.mem.direct.used': convert_value,
     'dbms.memory.managed.direct': convert_value,
+
+    'user.request.thread.pool.queue': convert_value,
+    'user.request.thread.pool.size': convert_value,
+    'user.request.thread.pool.active': convert_value,
+    'cluster.thread.pool.queue': convert_value,
+    'cluster.thread.pool.size': convert_value,
+    'cluster.request.thread.pool.active': convert_value,
 }
 
 
