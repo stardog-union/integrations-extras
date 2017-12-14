@@ -78,7 +78,7 @@ _g_metrics_map = {
     'user.request.thread.pool.active': convert_value,
     'cluster.thread.pool.queue': convert_value,
     'cluster.thread.pool.size': convert_value,
-    'cluster.request.thread.pool.active': convert_value,
+    'cluster.thread.pool.active': convert_value,
 }
 
 
