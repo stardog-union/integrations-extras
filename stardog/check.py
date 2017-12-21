@@ -73,12 +73,12 @@ _g_metrics_map = {
     'dbms.mem.direct.used': convert_value,
     'dbms.memory.managed.direct': convert_value,
 
-    'user.request.thread.pool.queue': convert_value,
-    'user.request.thread.pool.size': convert_value,
-    'user.request.thread.pool.active': convert_value,
-    'cluster.thread.pool.queue': convert_value,
-    'cluster.thread.pool.size': convert_value,
-    'cluster.thread.pool.active': convert_value,
+    'user.threads.queue': convert_value,
+    'user.threads.size': convert_value,
+    'user.threads.active': convert_value,
+    'admin.threads.queue': convert_value,
+    'admin.threads.size': convert_value,
+    'admin.threads.active': convert_value,
 }
 
 
